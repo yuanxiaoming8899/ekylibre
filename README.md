@@ -1,60 +1,46 @@
-# Ekylibre
-
-Ekylibre is a farm management information system (aka FMIS) web application.
-
-Ekylibre is written with [Ruby on Rails framework](https://rubyonrails.org/) and use
-[PostgreSQL](https://www.postgresql.org/) and [PostGIS](https://postgis.net/) stack.
-
-More details can be found on the official website https://ekylibre.com
-
-## Screenshot
-
-[![Screens](https://raw.github.com/ekylibre/ekylibre/master/doc/screenshots/screens.jpg)](https://raw.github.com/ekylibre/ekylibre/master/doc/screenshots/screens.png)
-
-## Global requirement
-
-Global requirement before installing Ekylibre
-
-* [Ubuntu 20.04 LTS](<./doc/Installation/Global/Ubuntu 20.04 LTS.md>)
-
-## Ekylibre Installation
-
-* [Installation Ekylibre](./doc/Installation/Eky-Ekylibre.md)
-
-### [Docker](https://github.com/ekylibre/ekylibre/blob/main/docker/README.md)
-
-## Contributing
-
-We encourage you to contribute to Ekylibre.
-
-* See our conventions ([Français](https://github.com/ekylibre/ekylibre/wiki/Conventions-de-d%C3%A9veloppement))
-* Check out the latest master to make sure the feature hasn't been implemented
-  or the bug hasn't been fixed yet
-* Check out the issue tracker to make sure someone already hasn't requested it
-  and/or contributed it
-* Fork the project
-* Start a feature/bugfix branch
-* Commit and push until you are happy with your contribution
-* Make sure to add tests for it. This is important so we don't break it in a
-  future version unintentionally.
-* Please try not to mess with the Rakefile, version, or history. If you want to
-  have your own version, or is otherwise necessary, that is fine, but please
-  isolate to its own commit so we can cherry-pick around it.
-
-## See also
-
-* [Forum](http://forum.ekylibre.org)
-* [User Documentation - FR](https://doc.ekylibre.com/v2/fr/demarrage/)
-* [Official Demo](https://demo-innovation.ekylibre.io/backend)
-* [Official Demo dataset - FR](https://github.com/ekylibre/first_run-demo)
-
-## Follow us
-
-* [Twitter](https://twitter.com/Ekylibre)
-* [Facebook](https://www.facebook.com/ekylibre)
-* [YouTube](http://www.youtube.com/channel/UC_yYJGkq-aqC-So8DlXtM5g)
-
-## License
-
-Ekylibre is released under the [GNU/AGPLv3](http://opensource.org/licenses/AGPL-3.0)
-license.
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">埃基利布雷</font></font></h1><a id="user-content-ekylibre" class="anchor" aria-label="永久链接：Ekylibre" href="#ekylibre"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ekylibre 是一个农场管理信息系统（又名 FMIS）网络应用程序。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ekylibre 是用</font></font><a href="https://rubyonrails.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ruby on Rails 框架</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编写的，并使用
+</font></font><a href="https://www.postgresql.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PostgreSQL</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://postgis.net/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PostGIS</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">堆栈。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多详情可参见官方网站</font></font><a href="https://ekylibre.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://ekylibre.com</font></font></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">截屏</font></font></h2><a id="user-content-screenshot" class="anchor" aria-label="永久链接：屏幕截图" href="#screenshot"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="https://raw.github.com/ekylibre/ekylibre/master/doc/screenshots/screens.png"><img src="https://camo.githubusercontent.com/3adf5d0ed5fe1c0b2d5fc3fffb83c3d0f7958115fd875754119d8ebc02aa3d69/68747470733a2f2f7261772e6769746875622e636f6d2f656b796c696272652f656b796c696272652f6d61737465722f646f632f73637265656e73686f74732f73637265656e732e6a7067" alt="屏幕" data-canonical-src="https://raw.github.com/ekylibre/ekylibre/master/doc/screenshots/screens.jpg" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">全球要求</font></font></h2><a id="user-content-global-requirement" class="anchor" aria-label="永久链接：全球要求" href="#global-requirement"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装 Ekylibre 之前的全局要求</font></font></p>
+<ul dir="auto">
+<li><a href="/ekylibre/ekylibre/blob/main/doc/Installation/Global/Ubuntu%2020.04%20LTS.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ubuntu 20.04 LTS</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ekylibre安装</font></font></h2><a id="user-content-ekylibre-installation" class="anchor" aria-label="永久链接：Ekylibre 安装" href="#ekylibre-installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="/ekylibre/ekylibre/blob/main/doc/Installation/Eky-Ekylibre.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装 Ekylibre</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><a href="https://github.com/ekylibre/ekylibre/blob/main/docker/README.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">码头工人</font></font></a></h3><a id="user-content-docker" class="anchor" aria-label="永久链接：Docker" href="#docker"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></h2><a id="user-content-contributing" class="anchor" aria-label="永久链接：贡献" href="#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们鼓励您为 Ekylibre 做出贡献。</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看我们的惯例（</font></font><a href="https://github.com/ekylibre/ekylibre/wiki/Conventions-de-d%C3%A9veloppement"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">法语</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查最新的master以确保该功能尚未实现或错误尚未修复</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看问题跟踪器以确保尚未有人请求和/或贡献它</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分叉项目</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">启动功能/错误修复分支</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">承诺并推动，直到您对自己的贡献感到满意为止</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保为其添加测试。</font><font style="vertical-align: inherit;">这很重要，因此我们不会在未来的版本中无意中破坏它。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请尽量不要弄乱 Rakefile、版本或历史记录。</font><font style="vertical-align: inherit;">如果您想拥有自己的版本，或者有其他必要，那很好，但请隔离到它自己的提交，以便我们可以对其进行挑选。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也可以看看</font></font></h2><a id="user-content-see-also" class="anchor" aria-label="永久链接：另请参阅" href="#see-also"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="http://forum.ekylibre.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论坛</font></font></a></li>
+<li><a href="https://doc.ekylibre.com/v2/fr/demarrage/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用户文档 - FR</font></font></a></li>
+<li><a href="https://demo-innovation.ekylibre.io/backend" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">官方演示</font></font></a></li>
+<li><a href="https://github.com/ekylibre/first_run-demo"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">官方演示数据集 - FR</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">跟着我们</font></font></h2><a id="user-content-follow-us" class="anchor" aria-label="永久链接：关注我们" href="#follow-us"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://twitter.com/Ekylibre" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">推特</font></font></a></li>
+<li><a href="https://www.facebook.com/ekylibre" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Facebook</font></font></a></li>
+<li><a href="http://www.youtube.com/channel/UC_yYJGkq-aqC-So8DlXtM5g" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">YouTube</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h2><a id="user-content-license" class="anchor" aria-label="永久链接：许可证" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="http://opensource.org/licenses/AGPL-3.0" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ekylibre 在GNU/AGPLv3</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">许可证下发布</font><font style="vertical-align: inherit;">
+。</font></font></p>
+</article></div>
